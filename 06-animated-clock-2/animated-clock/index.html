@@ -41,6 +41,16 @@
           text-decoration: none;
           font-weight: bold;
       }
+      .canvas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+      }
+      .card {
+        margin-left: 15%;
+      }
     </style>
     <title>Animated Clock Challenge</title>
   </head>
@@ -54,7 +64,9 @@
           </ul>
       </div>
     </nav>
-    <canvas id="canvas" width="500" height="500"></canvas>
+    <div class="container canvas">
+      <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
     <div class="card">
       <h3>Clock Style</h3>
       <form>

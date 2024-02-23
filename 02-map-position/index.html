@@ -45,6 +45,12 @@
           text-decoration: none;
           font-weight: bold;
       }
+      .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
       #map {
         width: 600px;
         height: 600px;
@@ -69,7 +75,9 @@
           </ul>
       </div>
     </nav>
-    <h1>Map Position</h1>
-    <div id="map"></div>
+    <div class="container content">
+      <h1>Map Position</h1>
+      <div id="map"></div>
+    </div>
   </body>
 </html>
